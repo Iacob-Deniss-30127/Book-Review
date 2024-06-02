@@ -1,0 +1,77 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    max-width: fit-content;
+    text-align: center;
+    gap: 10px; /* Adjust the gap between columns as needed */
+    max-width: 2000px; /* Set a max width for your grid container */
+    margin: 0 auto; /* Center the grid container */
+    padding: 20px; /* Optional: Add padding */
+    box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
+}
+
+.title{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.separator{
+    color: #f4f1ea;
+}
+
+.line-separator{
+    color: #ccc;
+    
+}
+
+.wrapper{
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+
+.box{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 2rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background: white;
+}
+
+.invisible-box{
+
+    border-radius: 6px;
+    padding: 2rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: -4.5rem;
+}
+
+.book-title-list{
+    font-size: 20px;
+   
+}
+
+.book-title{
+    padding-left: 2.5rem;
+}
+
+.news-book-title{
+    padding-left: 1rem;
+}
+
+.main-book-description{
+    padding-left: 2.5rem;
+}
+
+img{
+    display: block;
+    max-width: 90%;
+}
+
+.news-column{
+    padding-top: 4rem;
+}

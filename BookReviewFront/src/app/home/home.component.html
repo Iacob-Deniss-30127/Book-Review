@@ -1,0 +1,56 @@
+<div class="main-content">
+    <div class="first-column">
+        <h3 class="title">Recommendations</h3>
+        <hr class="separator">
+        <hr class="separator">
+        <div class="news-column">Take on Our Challenge</div>
+        <div class="wrapper">
+            <div class="invisible-box">
+                <img src="assets/img/books.png" alt="imparatur_mustelor">
+                <div class="news-book-title">Read 12 books this year
+                </div>
+            </div>
+            <div class="news-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste
+                commodi enim quidem repudiandae, odit, quis error ducimus eum aperiam debitis officia repellat.
+                Voluptate sint, nam hic quas sequi culpa! </div>
+        </div>
+        <hr class="line-separator">
+    </div>
+    <div class="main-column">
+        <h3 class="title">Our books</h3>
+        <hr class="separator">
+        <div class="wrapper">
+            <h3 class="book-title-list" *ngFor="let book of books">
+                <div class="box">
+                    <div class="box-column-primary">
+                        <img src="assets/img/ciuma_cover.jpeg" alt="ciuma_cover">
+                    </div>
+                    <div class="box-column-secondary">
+                        <b class="book-title">{{book.title}}</b>
+                        <hr class="separator">
+                        <div class="main-book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eveniet similique tempore labore vitae odit iusto molestias, fugiat sint est cumque eos
+                            magni. Id excepturi beatae est cupiditate placeat ullam ipsam!</div>
+                    </div>
+                </div>
+            </h3>
+        </div>
+    </div>
+    <div class="third-column">
+        <h3 class="title">News</h3>
+        <hr class="separator">
+        <div class="news-column">Cartea favorita a lui Stephen King</div>
+        <div class="wrapper">
+            <div class="invisible-box">
+                <img src="assets/img/imparatul_mustelor.jpeg" alt="imparatur_mustelor">
+                <div class="news-book-title">Imparatul mustelor
+                    <div>William Golding</div>
+                </div>
+            </div>
+            <div class="news-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste
+                commodi enim quidem repudiandae, odit, quis error ducimus eum aperiam debitis officia repellat.
+                Voluptate sint, nam hic quas sequi culpa! </div>
+        </div>
+        <hr class="line-separator">
+    </div>
+</div>

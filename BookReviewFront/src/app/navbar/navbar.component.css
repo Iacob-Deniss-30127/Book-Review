@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   background: #f4f1ea;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: inherit;
+    outline: none;
+}
+
+.collapse.navbar-collapse{
+    justify-content: space-between;
+}
+
+.navbar-expand-lg{
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.header.navbar.navbar-expand-lg.navbar-dark{
+    justify-content: space-between;
+}
+
+.header-separator{
+    border: 0;
+    height: 1px;
+    background: #292929;
+    margin: 5px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12);
+}
+
