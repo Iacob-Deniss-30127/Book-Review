@@ -13,6 +13,7 @@
 .title{
     font-size: 17px;
     text-transform: uppercase;
+    margin-bottom: -4rem;
 }
 
 .separator{
@@ -54,7 +55,7 @@
     font-size: 20px;
    
 }
-
+.main-book-author,
 .book-title{
     padding-left: 2.5rem;
 }
@@ -74,4 +75,10 @@ img{
 
 .news-column{
     padding-top: 4rem;
+}
+
+.review-link{
+    text-align: end;
+    color: rgb(9, 9, 161);
+    text-decoration: underline;
 }

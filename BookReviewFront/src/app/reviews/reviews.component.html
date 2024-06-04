@@ -1,0 +1,19 @@
+<h3 class="book-title-list" *ngFor="let book of books">
+    <div class="box">
+        <div class="box-column-primary">
+            <img src="assets/img{{book.imagePath}}" alt="book-cover-image">
+        </div>
+        <div class="box-column-secondary">
+            <b class="book-title">{{book.title}}</b>
+            <div class="main-book-author">{{book.author}}</div>
+            <hr class="separator">
+            <div class="main-book-description">{{book.description}}
+                <hr class="separator">
+                <a href="/reviews">
+                    <h6 class="review-link">Citeste Recenzii</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</h3>

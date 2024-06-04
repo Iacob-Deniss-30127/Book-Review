@@ -2,12 +2,12 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-reviews',
+  templateUrl: './reviews.component.html',
+  styleUrl: './reviews.component.css'
 })
+export class ReviewsComponent {
 
-export class AppComponent {
   title = 'Books';
   readonly APIUrl = "http://localhost:5032/api/Books/";
 
@@ -23,14 +23,8 @@ export class AppComponent {
     })
   }
 
-  searchText: string = '';
-  onSearchTextEntered(searchValue: string){
-    this.searchText = searchValue;
-    console.log(this.searchText);
-  }
-
   ngOnInit(){
     this.refreshBooks();
   }
-}
 
+}

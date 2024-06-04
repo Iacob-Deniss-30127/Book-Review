@@ -10,9 +10,10 @@
                 <div class="news-book-title">Read 12 books this year
                 </div>
             </div>
-            <div class="news-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste
-                commodi enim quidem repudiandae, odit, quis error ducimus eum aperiam debitis officia repellat.
-                Voluptate sint, nam hic quas sequi culpa! </div>
+            <div class="recommendations-description">Challenge yourself to read 12 books this year! Dive into a new book
+                each month, exploring different genres and authors. Not only will you broaden your horizons, but you'll
+                also develop a rewarding habit that enriches your mind and soul. Are you ready to take on the challenge?
+            </div>
         </div>
         <hr class="line-separator">
     </div>
@@ -23,16 +24,23 @@
             <h3 class="book-title-list" *ngFor="let book of books">
                 <div class="box">
                     <div class="box-column-primary">
-                        <img src="assets/img/ciuma_cover.jpeg" alt="ciuma_cover">
+                        <img src="assets/img{{book.imagePath}}" alt="book-cover-image">
                     </div>
                     <div class="box-column-secondary">
                         <b class="book-title">{{book.title}}</b>
+                        <div class="main-book-author">{{book.author}}</div>
                         <hr class="separator">
-                        <div class="main-book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Eveniet similique tempore labore vitae odit iusto molestias, fugiat sint est cumque eos
-                            magni. Id excepturi beatae est cupiditate placeat ullam ipsam!</div>
+                        <div class="main-book-description">{{book.description}}
+                            <hr class="separator">
+                            <a href="/reviews">
+                                <h6 class="review-link">Citeste Recenzii</h6>
+                            </a>
+                            
+                        </div>
                     </div>
+                    <i class="fa-sharp fa-solid fa-xmark"></i>
                 </div>
+
             </h3>
         </div>
     </div>
@@ -47,9 +55,10 @@
                     <div>William Golding</div>
                 </div>
             </div>
-            <div class="news-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste
-                commodi enim quidem repudiandae, odit, quis error ducimus eum aperiam debitis officia repellat.
-                Voluptate sint, nam hic quas sequi culpa! </div>
+            <div class="news-description">Romanul Imparatul mustelor, devenit un clasic al secolului XX, continua sa
+                aiba un ecou rareori intalnit in istoria literaturii. Transpunerea cinematografica a romanului, din
+                1963, apartine regizorului Peter Brook. William Golding a primit Premiul Nobel pentru literatura in
+                1983. </div>
         </div>
         <hr class="line-separator">
     </div>

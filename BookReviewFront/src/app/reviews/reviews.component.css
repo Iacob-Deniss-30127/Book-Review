@@ -1,0 +1,26 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    max-width: fit-content;
+    text-align: center;
+    gap: 10px; /* Adjust the gap between columns as needed */
+    max-width: 2000px; /* Set a max width for your grid container */
+    margin: 0 auto; /* Center the grid container */
+    padding: 20px; /* Optional: Add padding */
+    box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
+}
+
+.box{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 2rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background: white;
+}
+
+img{
+    display: block;
+    max-width: 90%;
+}
